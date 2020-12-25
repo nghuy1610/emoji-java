@@ -13,7 +13,7 @@ What I did are:
 To update lib with new emoji:
 1. Add new emoji image with same format name as other exist image.
 2. Run DataGeneration module to update emojis.json.
-3. Replace \\u by \u in the file.
+3. Replace \\\\u by \u in the file.
 4. Run mvn clean package.
 
 Those functions relative to tag, Fitzpatrick, aliases are supposed to not work.
